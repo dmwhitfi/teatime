@@ -1,0 +1,26 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22;
+	color: seashell;
+	background-color: black;
+}
+
+#header {
+	color: yellow;
+	display: inline-flex;
+	justify-content: center;
+	width: 1200px;
+}
+
+.nav-items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	list-style: none;
+	text-decoration: underline;
+}
+
+#main-img {
+	display: flex;
+}
