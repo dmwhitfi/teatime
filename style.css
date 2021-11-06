@@ -8,19 +8,42 @@ body {
 #header {
 	color: yellow;
 	display: inline-flex;
-	justify-content: center;
+	justify-content: left;
 	width: 1200px;
+	height: 69px;
+	border-bottom: 1px seashell;
+	position: sticky;
+	top: 0;
+	background-color: black;
 }
 
 .nav-items {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: right;
 	list-style: none;
 	text-decoration: underline;
 }
 
-#main-img {
-	display: flex;
+#mission {
+	display: flexbox;
+	background-image: url(./resources/img-mission-background.jpg);
+	width: 1200px;
+	height: 700px;
+	align-content: center;
+}
+
+.mission-text {
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
+.mission-subtext {
+	background-color: black;
+	margin-top: 0%;
+	padding-top: 0%;
 }
